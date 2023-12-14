@@ -13,11 +13,3 @@ Si todos los subárboles son válidos, la función retorna `True`. Si cualquier 
 ## Ejemplos
 
 El archivo `btree.py` también contiene algunos ejemplos de listas que representan árboles binarios válidos e inválidos. Puedes ejecutar este archivo para ver los resultados de la función `es_arbol` para estas listas de prueba.
-
-## Uso
-
-Para verificar si una lista representa un árbol binario válido, simplemente llama a la función `es_arbol` con la lista como argumento. Por ejemplo:
-
-```python
-resultado = es_arbol([1, [2, None, None], [3, None, None]])
-print(resultado)  # Imprime: True
