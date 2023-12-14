@@ -19,6 +19,7 @@ if __name__ == "__main__":
     lista3 = [None,None,None]  # Esta es un árbol binario válido con todos los nodos None
     lista4 = [1, [2, [4, None, None], [5, None, None]], [3, [6, None, None], [7, None, None]]] # Esta es un árbol binario válido con varios niveles
     lista5 = [None,None] # Esta no es un árbol binario válido
+    
 # Imprimimos los resultados de la función para nuestras listas de prueba
     print(es_arbol(lista))  # Debería imprimir True
     print(es_arbol(lista2))  # Debería imprimir False
