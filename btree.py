@@ -7,8 +7,9 @@ def es_arbol(lista):
             
             if elemento is not None and not es_arbol(elemento):
                 return False
-       
+            
         return True
+    
     return False
   
 if __name__ == "__main__":
